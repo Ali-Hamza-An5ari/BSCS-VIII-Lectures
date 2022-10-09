@@ -1,0 +1,68 @@
+*mininet lab*
+
+cd /home
+sudo apt-get update
+sudo apt-get install mininet
+sudo apt-get install git
+git clone https://github.com/mininet/mininet
+ls
+cd /mininet
+cd git tag
+sudo git checkout -b cs
+---press tab to complete 
+---go to home dir
+cd ./home
+sudo mininet/util/install.sh -a
+
+
+//start mininet
+sudo mn
+sudo mn --topo=single, 4 //4 is no of host in topology 
+
+//for complex network. be on home directory
+
+sudo mininet/examples/miniedit.py
+*GUI module opens
+
+--create configurations
+--go to edit > preference
+check CLI 
+open flow reference
+--click run
+
+*on terminal
+h1 ping h2
+
+xterm h2
+
+*Node: h2 opens
+ipconfig
+ping any host
+
+sudo mn --topo=single, 6 --controller remote
+xterm h1 h2
+*node h1 and h2 opens
+
+=on node 1
+python -m SimpleHTTPServer 80
+
+=on node 2
+python -m SimpleHTTPServer 80
+
+----------
+--open another terminal
+sudo wireshark
+--run the network
+
+-----------
+--open another terminal
+cd home
+//making controller for loadbalancing
+pox/pox.py log.level --DEBUG misc.ip_loadbalancer --ip=10.0.1.1 --servers=10.0.0.1,10.0.0.2
+
+*gives port 6633
+sudo mn --topo=single, 6 --controller remote.port=6633
+
+
+
+
