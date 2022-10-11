@@ -15,6 +15,7 @@ cd ./home
 sudo mininet/util/install.sh -a
 
 
+
 //start mininet
 sudo mn
 sudo mn --topo=single, 4 //4 is no of host in topology 
