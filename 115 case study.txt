@@ -3,3 +3,4 @@ Paeg 115 case study answers
 -Restrict any un-allowed content according to the policy. If student does then his/her IP should block or show some message
 -Only admin should allow to install any program
 -They should define a code for email attachement and un-allowed attachments cannot be downloaded
+
