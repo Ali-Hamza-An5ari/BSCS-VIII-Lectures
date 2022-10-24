@@ -1,0 +1,53 @@
+traditional vs cloud client-server model
+
+traditionally servers makes internet infrastructure and responds on client requests. 
+
+cloud computing server not only responds but also run program and store data on clients behalf
+
+rather owning own computing infrastructure, companies can rent access to app or storage from cloud provider
+
+avoid
+-upfront cost
+-complexity of owning and maintenace of infrastructure
+-
+
+cloud computing is equally beneficial for person in running
+-apps
+-storage
+-develop and test programs
+
+Advantages
+-cost infrastructure, cooling, maintenance, expertise hire
+
+
+-speed
+pressure off capacity plannig
+fast service
+
+-global sccale 
+scale elasticity
+appropriate power and bandwidth
+
+-productivity
+cc excludes need of many tasks so IT team can focuse on imp business goals.
+
+-reliability 
+data backup, disaster recovery and business continuity easier because data is mirrored at multiple sites on cp network
+
+
+Disadvantage
+-companies reluctant to keep snsitive data ownself
+-cc is not always cheaper
+-if app has regular and predictible req then inhouse is more economical
+-you can access if have internet connection
+-large companies can be haccked
+
+
+Five essential characteristics of cloud model
+-On demand self service
+-resource pooling
+-rapid elasticity
+-measure service
+-broad network access
+
+
