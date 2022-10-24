@@ -1,0 +1,53 @@
+Reconnaissance is the practice of covertly discovering and collecting information about a system.
+
+
+Passive reconnaissance is an attempt to gain information about targeted computers and networks without actively engaging with the systems. 
+
+In active reconnaissance, in contrast, the attacker engages with the target system, typically conducting a port scan to determine find any open ports.
+
+
+Active reconnaissance is a type of computer attack in which an intruder engages with the targeted system to gather information about vulnerabilities
+
+
+Passive Reconnaissance: It is a penetration testing technique where attackers extract information related to the target without interacting with the target. That means no request has been sent directly to the target. Generally, the public resource is used to gather information. Hackers gather info by tools like wireshark etc,
+
+Type of Scan 
+-Ping scan
+
+Ping sweep, also known as ICMP sweep or a ping scan, is a network scanning technique you can use to find out which IP addresses map to live hosts. In contrast to a single ping, a ping sweep uses ICMP (Internet Control Message Protocol) ECHO requests to communicate with multiple hosts at the same time.
+
+
+-connect scan
+fully connet to the target ip add and port 
+complete handshake 
+most reliable
+
+-syn scan 
+sends syn req to target to gather information about open ports without completing TCP handshake. when open port is identified tcp handshake is reset before completion.
+
+-Fin scan 
+sends finish packets to target 
+if port not listeneing no response
+if listening an error response
+
+
+Sql Injection 
+SQL injection is one of the most common web hacking techniques.
+
+SQL injection usually occurs when you ask a user for input, like their username/userid, and instead of a name/id, the user gives you an SQL statement that you will unknowingly run on your database.
+
+
+Cross site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website.
+
+
+Other attacks 
+pass the hash
+script
+
+
+
+
+
+
+ 
+
