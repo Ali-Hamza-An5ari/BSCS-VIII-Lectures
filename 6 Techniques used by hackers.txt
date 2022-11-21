@@ -1,6 +1,5 @@
 Reconnaissance is the practice of covertly discovering and collecting information about a system.
 
-
 Passive reconnaissance is an attempt to gain information about targeted computers and networks without actively engaging with the systems. 
 
 In active reconnaissance, in contrast, the attacker engages with the target system, typically conducting a port scan to determine find any open ports.
@@ -29,7 +28,6 @@ sends syn req to target to gather information about open ports without completin
 sends finish packets to target 
 if port not listeneing no response
 if listening an error response
-
 
 Sql Injection 
 SQL injection is one of the most common web hacking techniques.
