@@ -1,0 +1,99 @@
+
+
+
+Collection Forensically provable, documenting a series of events happening on the digital evidence from the time of its collection, storage, analysis, and transfer till court trial and finally case closure.
+
+...................
+
+6 Stages of computer security
+
+Pacth
+
+Patches are software and operating system (OS) updates that address security vulnerabilities within a program or product.
+
+Critical important to cover the vulneribilities
+Recommende
+Optional
+
+--------------------------
+Ports 
+
+Shutting down unneeded ports and services is an essential and very basic part of computer security. As
+mentioned above, every port open (and every service running) is a possible avenue for a hacker or virus
+to get to your machine. Therefore, the rule is: If you don’t need it, shut it down and block it.
+It is best for you to first make a list of all software that you are running. Then, look up the ports and
+protocols that you will need for that software and allow only those. It is important to keep in mind that
+these are ports for incoming traffic. If your machine is not used as a database server, web server, or other type of server and if your machine is a stand-alone one, you can (and should) close all ports.
+Workstations on networks may need some ports open for network utilities. We will examine some
+interesting utilities later in this chapter.
+every port you can close is one less opportunity
+for such attacks to affect your system.
+
+
+--------------------------
+Protect
+The next phase of assessing a system’s security is to ensure that all reasonable protective software and
+devices are employed. This means, at a minimum, a firewall between your network and the outside
+world.
+
+You should also consider using an intrusion-detection
+system (IDS) on that firewall and any web servers
+
+The firewall and IDS will
+provide basic security to your network’s perimeter, but you also need virus scanning.
+
+consider antispyware software on all of your systems. This will prevent users of
+your network from inadvertently running spyware on the network.
+
+--------------------------
+Policies
+
+organization have clearly written policies on
+computer security—and that those policies be strongly enforced by management. Those policies
+should cover acceptable use of organizational computers, the Internet, email, and any other aspect of
+the system.
+
+
+>>>>>>>> Policies should prohibit the installation of any software on the systems. Only IT personnel
+should install software and only after they have verified its safety.
+
+>>>>>>>Different data access
+
+
+>>>>>>>>There should be a policy regarding passwords: acceptable minimum length, lifetime of a password,
+password history, and passwords to be avoided, such as any word that has a direct connection to the
+user like family names, fullname, countryname etc. 
+
+
+>>>>>>>> Password replacement schedule of 90 days
+
+
+>>>>>>>> Policies includes specific instruction of What to do in case of employee termination like person’s login accounts should be disabled immedieately and physical access should discontinued. 
+--------------------------
+
+Probing for certain time like 3 months or year from securuty auditors
+
+probing your ports a review of your security policies, your patching system, any security
+logs you maintain, personnel files of those in secure positions, and so forth.
+
+-----------------------
+
+Physical
+
+
+>>>>>>>> policy or procedure governing the
+locking of rooms with computers as well as the handling of laptops, PDAs, and other mobile computer
+devices.
+
+
+>>>>>>>> Backup tapes should be stored in a fireproof safe. Documents and old backup tapes
+should be destroyed before disposal
+
+
+>>>>>>>> Physical access to routers and hubs should also be tightly controlled
+
+Basic rules for Physical security
+Server rooms: server logs and keys
+
+
+ 
