@@ -1,0 +1,27 @@
+Kubernetes is a container management platform for scheduling and automating the deployment of management and scaling containerized apps.
+
+Kubernetes Components
+-control plane (master)
+-dist key-value system for keep state consistent
+-cluster node kublets and workers
+
+Kube architecture
+-Control plane 
+-Kubernete node: could be physical or virtual machine. has pods composed of containers. iclude a container runtime eng or docker, kubelet service 
+and kublet proxy service
+
+
+Monolithic 
+-login
+-sendport
+shorts
+friend
+block
+payment
+
+
+Micro services 
+apps are divided into micorservices
+
+Kubernete is a genearal container management platform
+
