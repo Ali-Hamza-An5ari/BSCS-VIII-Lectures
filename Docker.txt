@@ -1,0 +1,67 @@
+VM are slow and take time to boot
+
+Containers are fast and boot quickly, dont waste host resources
+
+Containers are handled by containerization engine 
+
+Docker is contzation platform to create and run container
+
+Container is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+Comparison of VM and docker
+
+-Size: resources theey utiliize wastes memory
+-Startup: boot time guest OS needs to start from scrtch and load all bins and libs
+
+On Vm 2 different VM need to run different versions of same language Ruby 
+
+On Docker, 2 different containers needed on host PC, it will download libs and bins itself. 
+
+
+-Integration: integration with other tools
+
+
+Docker Engine installed app on host machine. 
+
+server long running daemon process
+CLI client
+
+communication with REST API
+
+Doccker image is building block of Docker container. 
+You can create a new docker image or use from docker-hub 
+docker always runs softwares
+
+
+Docker container 
+ready apps created from dock images, have all required package to run the application. 
+
+Docker registery 
+storage where docker images are stored, can be local or public where users can collaborate.
+
+Docekr architecture
+includes
+
+-client to triger commands
+-host runs daemon
+-resgitery store images
+
+
+
+Docker File 
+contains instructions to build docker image
+-ht run commands
+-add files
+-cr env variables
+-process to run 
+
+result is docker image
+
+Docker compose 
+tool for defining and running multi-container app with docker in a single file. ensures fast and easy development.
+
+Docker Swarm is native clustering system have multiple docker daemons which distibute workloads
+
+
+
+
